@@ -1,13 +1,13 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
-
+} */
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -17,7 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -30,4 +30,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/********************************************************************************************************************************/
+.inner{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* menu trong header*/
+
+.header{
+  width: 100%;
+  height: 51Px;
+  top:0%;
+background-color: #111;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: aliceblue;
+  border-bottom: 3px solid rgb(245, 116, 41);
+
+}
+
+.khung2{
+  
+  color: rgb(197, 83, 17);
+}
+button{
+  background-color: brown;
+  color: rgb(12, 9, 6);
+  border: color 1px brown;
+  height: 50px;
+  padding: 0 30px;
+  border-radius: 20px;
+}
+
+.button1{
+  border: color 1px brown;
+  height: 50px;
+  padding: 0 30px;
+  border-radius: 20px;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+   background-image: url("https://3.bp.blogspot.com/-uj1volB_BnY/Wp0-BZisneI/AAAAAAAAubQ/QSS5W-PptU4OLsaEmydunvgZvaUqLTD-QCLcBGAs/s1600/anh-anime-buon-den-trang-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
